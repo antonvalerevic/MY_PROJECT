@@ -13,6 +13,6 @@ dec_num = 10
 bin_num = convert_dec_in_bin(dec_num)
 bin_n = bin_num.replace('0b', '')
 
-print(f'The binary equivalent of {dec_num} is", {bin_n}')
+print(f'The binary equivalent of {dec_num} is, {bin_n}')
 
 
