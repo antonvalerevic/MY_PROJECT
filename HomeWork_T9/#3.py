@@ -1,7 +1,7 @@
 import collections
 
 
-with open("C:\\Users\\Антон\\Desktop\\Новый текстовый документ.txt", "r") as input_file:
+with open("C:\\Users\\Антон\\Desktop\\1 задание\\Новый текстовый документ.txt", "r") as input_file:
 
     lines = input_file.readlines()
 
