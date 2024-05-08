@@ -14,18 +14,18 @@ def max_matrix():
     return np.max(matrix), np.unravel_index(np.argmax(matrix), matrix.shape)
 
 min_val, min_idx = min_matrix()
-print("min value:", min_val)
-print("min index:", min_idx)
+print("Минимальное значение:", min_val)
+print("Индекс минимального значения:", min_idx)
 
 max_val, max_idx = max_matrix()
-print("max value:", max_val)
-print("max index:", max_idx)
+print("Максимальное значение:", max_val)
+print("Индекс минимального значения:", max_idx)
 
 # сумма матрицы
 def sum_matrix():
     return sum(sum(matrix))
 sum_m = sum_matrix()
-print("summa", sum_m)
+print("Сумма всех значений матрицы:", sum_m)
 
 # Определить, какую долю
 # в общей сумме (процент) составляет сумма элементов
